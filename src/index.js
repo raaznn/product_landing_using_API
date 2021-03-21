@@ -17,12 +17,16 @@ function showProduct(p) {
   var template = [];
   template.push(
     '<div class="box">',
+    '<a href="product.html?product_id=' + p.productId + '"',
+    "<div>",
     '<img src="https://loremflickr.com/160/120/' +
       replaceSpace(p.productName) +
       '">',
     "<p>" + p.productName + "</p>",
+    '<p style="font-size:11px">' + p.productSummary + "</p>",
     "<p> Rs. " + p.productCost + "</p>",
-
+    "</div>",
+    "</a>",
     "</div>"
   );
 

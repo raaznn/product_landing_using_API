@@ -1,0 +1,30 @@
+body {
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 20px;
+}
+
+.box {
+  background-color: #20262e;
+  color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.box:hover {
+  background-color: #303540;
+  color: #fff;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
