@@ -4,9 +4,9 @@ body {
 }
 
 .item {
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 2px;
 }
 
 .box {

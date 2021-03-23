@@ -18,9 +18,17 @@ function showProduct(p) {
     '<img src="https://loremflickr.com/320/240/' +
       replaceSpace(p.productName) +
       '">',
-    "<p>" + p.productName + "</p>",
-    '<p style="font-size:11px">' + p.productSummary + "</p>",
-    "<p> Rs. " + p.productCost + "</p>",
+    "</div>",
+    '<div class="box">',
+    "<h1>" + p.productName + "</h1>",
+    "<h2> Rs. " + p.productCost + "</h2> <br>",
+
+    "<h4> Product Details </h3>",
+    "<p> Brand: " + p.productBrand + "</p>",
+    "<p> Color: " + p.productColor + "</p>",
+    "<p> Material: " + p.productMaterial + "</p>",
+    "<p> Availability: " + p.productAvailability + "</p>",
+
     "</div>"
   );
 
